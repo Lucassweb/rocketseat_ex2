@@ -1,0 +1,165 @@
+:root {
+    --yellow: #ffcc29;
+    --blue: #1d539e;
+    --gray: #828799;
+    --page-background: #f9fbfc;
+  }
+
+  * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Open Sans', sans-serif;
+      list-style: none;
+  }
+
+  .container-color {
+      height: 50vh;
+      background-color: var(--blue);
+  }
+
+
+.header-up {
+    position: fixed;
+    top: 15%;
+    right: 35%;
+    color: white;
+}
+
+.header-up h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.header-up p {
+    font-size: 15px;
+    text-align: center;
+}
+.container-section {
+    display: flex;
+    justify-content: center;
+    transform: translateY(-30%);
+}
+.container-article {
+    flex-basis: 19%;
+    margin: 10px;
+    height: 50vh;
+    background-color: var(--page-background);
+    border: 1px solid var(--page-background);
+    border-radius: 10px;
+}
+
+.container-article:nth-child(2){
+    transform: translateY(-5%);
+}
+.container-article h2 {
+    font-size: 1.2em;
+    /* margin: 15px 0px 0px 15px; */
+}
+
+.title {
+    padding: 25px 0 0 20px;
+}
+
+.title-button {
+    background: var(--yellow);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 15px 20px 25px;
+    border-radius: 5px;
+}
+
+.title-button h2 {
+    color: var(--blue);
+}
+
+.button-popular {
+    color: white;
+    border-radius: 25px;
+    padding: 8px;
+    width: 30%;
+    font-size: 12px;
+    margin-right: 10px;
+    border: none;
+    background-color: var(--blue);
+    cursor: pointer;
+}
+.first-text {
+    margin: 20px 0 0 20px;
+}
+.first-text .real {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+.first-text .cents { 
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.first-text .mes {
+    color: var(--gray);
+}
+
+.second-text {
+    color: var(--gray);
+    font-size: 13px;
+    margin: 10px 0 10px 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--gray);
+    width: 80%;
+}
+
+.list {
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    font-size: 14px;
+    position: relative;
+    left: 10%;
+    color: var(--gray);
+}
+
+.list p {
+    font-weight: 700;
+}
+
+.button-assinar {
+    font-weight: 400;
+    width: 80%;
+    position: relative;
+    top: 22%;
+    left: 12%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    color: var(--blue);
+    background-color: var(--page-background);
+    border: 1px solid var(--blue);
+}
+
+.button-assinar-primerio {
+    font-weight: 400;
+    position: relative;
+    top: 10%;
+    left: 9%;
+    width: 80%;
+    padding: 10px;
+    font-size: 1.2em;
+    color: var(--page-background);
+    border-radius: 10px;
+    border: 1px solid var(--blue);
+    background-color: var(--blue);
+}
+.button-assinar-terceiro {
+    font-weight: 400;
+    width: 80%;
+    position: relative;
+    top: 7%;
+    left: 12%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    color: var(--blue);
+    background-color: var(--page-background);
+    border: 1px solid var(--blue);
+}
